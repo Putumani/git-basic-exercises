@@ -1,0 +1,87 @@
+    1  node person.js
+    2  cd
+    3  sudo apt install nodejs
+    4  node --version
+    5  cd Putumani-Nomzaza-223-person-javascript/
+    6  la
+    7  rm ~*
+    8  rm *~
+    9  node person.js 
+   10  git clone https://github.com/Umuzi-org/Putumani-Nomzaza-963-contentitem-.git
+   11  ls
+   12  cd Putumani-Nomzaza-963-contentitem-/
+   13  ls
+   14  la
+   15  touch question_1.md
+   16  ls
+   17  nano question_1.md 
+   18  fg
+   19  git clone https://github.com/Putumani/git-basic-exercises.git
+   20  ls
+   21  cd git-basic-exercises/
+   22  ls
+   23  rm history.txt 
+   24  git branch
+   25  git checkout milkshake-flavours
+   26  ls
+   27  git branch -d milkshake-flavours
+   28  git push origin --delete milkshake-flavours 
+   29  ls
+   30  git branch
+   31  git branch --delete milkshake-flavours 
+   32  git checkout main
+   33  git branch
+   34  git checkout milkshake-flavours 
+   35  git branch --unset-upstream
+   36  git checkout main
+   37  cd 
+   38  rm -r git-basic-exercises/
+   39  rm -rf git branch --unset-upstream
+   40  rm -rf git-basic-exercises/
+   41  ls
+   42  mkdir git-basic-exercises
+   43  cd git-basic-exercises/
+   44  ls
+   45  git init
+   46  git branch
+   47  ls -a
+   48  git status
+   49  touch README.md
+   50  ls -a
+   51  git status
+   52  git add README.md 
+   53  git status
+   54  git commit -m "initial commit"
+   55  git checkout -b main
+   56  ls
+   57  git branch
+   58  git checkout master
+   59  ls
+   60  git checkout main
+   61  nano README.md
+   62  cat README.md 
+   63  git status
+   64  git add README.md 
+   65  git commit -m "second commit"
+   66  nano README.md 
+   67  git add README.md 
+   68  git commit -m "third commit"
+   69  git log
+   70  git checkout 75041d4b68eed97e77f85aa4f9066551dceebd24
+   71  cat README.md 
+   72  git checkout main
+   73  cat README.md 
+   74  git branch
+   75  git checkout -b milkshake-flavours
+   76  ls
+   77  git branch
+   78  nano milkshake.md
+   79  git status
+   80  git add milkshake.md 
+   81  git commit -m "added initial flavours"
+   82  git log
+   83  git checkout main
+   84  ls
+   85  git checkout -b history
+   86  git log
+   87  history > history.txt
